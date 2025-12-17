@@ -5,8 +5,6 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // GitHub Pages base path: replace with your repo name
-  base: "/Ey-hackthon/",
   server: {
     host: "::",
     port: 8080,
